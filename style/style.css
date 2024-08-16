@@ -571,3 +571,9 @@ text-align: left;
    justify-content:flex-end;
     /* display: block; */
 }
+ @media only screen and (max-width: 576px){
+    #bmi-table-form-container{
+    flex-direction: column;
+    box-sizing: content-box;
+   }
+ }
